@@ -1,0 +1,902 @@
+********** SysMonitor v10.1 (67) [connected to 192.168.0.99 (VSAH)] **********
+3719399832mS PRN: Monitor Status  IP 500 V2 8.1(65)
+3719399832mS PRN: LAW=U PRI=0, BRI=0, ALOG=8, VCOMP=20, MDM=0, WAN=0, MODU=0 LANM=0 CkSRC=0 VMAIL=1(VER=2 TYP=3) 1-X=0 CALLS=1(TOT=8921)
+3719404280mS DTM: 07/05/2015 09:50:09 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719405560mS CMCallEvt:    0.54169.0 -1 BaseEP: NEW CMEndpoint f51c987c TOTAL NOW=3 CALL_LIST=1
+3719405561mS CMCallEvt:    CREATE CALL:8922 (f52044d4)
+3719405561mS CMCallEvt:    0.54170.0 -1 BaseEP: NEW CMEndpoint f519b768 TOTAL NOW=4 CALL_LIST=1
+3719405563mS CD: CALL: 2.3.1 BState=Idle Cut=1 Music=0.0 Aend="Line 2" (1.2) Bend="" [] (0.0) CalledNum= () CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=3 AState=Idle
+3719405563mS CD2: CALL:S 2.3.1,0.54170.0,0,0,1,0,0,0,Line 2,,,1.2,0.0,100.0,,0.0,8028602296,,,100,,100,,0,16,0,1,0.0,,,,,,,0,3,0,0,0,0,,,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719405563mS CMCallEvt:    2.3.1 8922 Alog Trunk:2: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3719405563mS CMTARGET:     2.3.1 8922 Alog Trunk:2: LOOKUP CALL ROUTE: type=0 called_party= sub= calling=8028602296 dir=in complete=1 ses=0
+3719405563mS CMTARGET:     2.3.1 8922 Alog Trunk:2: SET BESTMATCH: length 0 vs -1 match= dest=Main
+3719405564mS CMCallEvt:    Priority hike: call 8922 priority 0->1
+3719405564mS CMTARGET:     2.3.1 8922 Alog Trunk:2: LOOKUP ICR: DDI=877-2509 CGPN=8028602296  (Destination Main ) => CDPN=Main
+3719405564mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ADD TARGET (N): number=Main type=0 depth=1 nobar=1 setorig=1 ses=0
+3719405564mS CMTARGET:     2.3.1 8922 Alog Trunk:2: HG(Main,200,192.168.0.99) Requires Routing To Master(1). IsLocalExecutive(1)
+3719405564mS CMTARGET:     2.3.1 8922 Alog Trunk:2: HG call targeting occuring here
+3719405564mS CMTARGET:     2.3.1 8922 Alog Trunk:2: PrimeForHGTarget: Main setorig=1 recall=0 resetExtnVars 1
+3719405564mS CMCallEvt:    Priority hike: call 8922 priority 1->5
+3719405565mS CMTARGET:     2.3.1 8922 Alog Trunk:2: AddHGTarget Main (depth=1) allowq=1 type=CMNTypeUnknown 
+3719405565mS CMCallEvt:    0.54171.0 -1 BaseEP: NEW CMEndpoint f5192264 TOTAL NOW=5 CALL_LIST=2
+3719405565mS CMTARGET:     2.3.1 8922 Alog Trunk:2: AddHGTargetRingGroup Main starting at 10
+3719405565mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ADD USER: Pharmacy depth=2 disallow_cw=1 dnd=0 real_call=1 group_call=1 type(CMNTypeUnknown) incl(0x0) excpt(0x3c), allow_redir(1) remote=00000000 simult 0 (0)
+3719405566mS CMCallEvt:    0.54172.0 -1 BaseEP: NEW CMEndpoint f51f2bd4 TOTAL NOW=6 CALL_LIST=2
+3719405566mS CMCallEvt:    0.54172.0 -1 Pharmacy.-1: NEW CMExtnEndpoint f51f2bd4, Name=Pharmacy, Extn=231, Phys Extn=231
+3719405567mS CMTARGET:     0.54172.0 8922 Pharmacy.0: ADD PRIMARY
+3719405567mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ADD USER: Reception 2 depth=2 disallow_cw=1 dnd=0 real_call=1 group_call=1 type(CMNTypeUnknown) incl(0x0) excpt(0x3c), allow_redir(1) remote=00000000 simult 0 (0)
+3719405567mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ADD USER: Reception depth=2 disallow_cw=1 dnd=0 real_call=1 group_call=1 type(CMNTypeUnknown) incl(0x0) excpt(0x3c), allow_redir(1) remote=00000000 simult 0 (0)
+3719405567mS CMCallEvt:    0.54173.0 -1 BaseEP: NEW CMEndpoint f51ee0bc TOTAL NOW=7 CALL_LIST=2
+3719405567mS CMCallEvt:    0.54173.0 -1 Reception.-1: NEW CMExtnEndpoint f51ee0bc, Name=Reception, Extn=221, Phys Extn=221
+3719405568mS CMTARGET:     0.54173.0 8922 Reception.0: ADD PRIMARY
+3719405568mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ADD USER: Records depth=2 disallow_cw=1 dnd=0 real_call=1 group_call=1 type(CMNTypeUnknown) incl(0x0) excpt(0x3c), allow_redir(1) remote=00000000 simult 0 (0)
+3719405569mS CMCallEvt:    0.54174.0 -1 BaseEP: NEW CMEndpoint f51f5de4 TOTAL NOW=8 CALL_LIST=2
+3719405569mS CMCallEvt:    0.54174.0 -1 Records.-1: NEW CMExtnEndpoint f51f5de4, Name=Records, Extn=227, Phys Extn=227
+3719405569mS CMTARGET:     0.54174.0 8922 Records.0: ADD PRIMARY
+3719405570mS CMCallEvt:    0.54175.0 -1 BaseEP: NEW CMEndpoint f51f44dc TOTAL NOW=9 CALL_LIST=2
+3719405570mS CMCallEvt:    0.54175.0 -1 Mark.-1: NEW CMExtnEndpoint f51f44dc, Name=Mark, Extn=226, Phys Extn=226
+3719405570mS CMExtnEvt:    Mark: CMExtnHandler::SetCurrent( id: 0->54175 )
+3719405570mS CMTARGET:     0.54175.0 -1 Mark.0: ADD COVERAGE (DefinityLineAppearance)
+3719405571mS CMCallEvt:    0.54176.0 -1 BaseEP: NEW CMEndpoint f5180598 TOTAL NOW=10 CALL_LIST=2
+3719405571mS CMCallEvt:    0.54176.0 -1 Office.-1: NEW CMExtnEndpoint f5180598, Name=Office, Extn=222, Phys Extn=222
+3719405571mS CMExtnEvt:    Office: CMExtnHandler::SetCurrent( id: 0->54176 )
+3719405572mS CMTARGET:     0.54176.0 -1 Office.0: ADD COVERAGE (DefinityLineAppearance)
+3719405572mS CMCallEvt:    0.54177.0 -1 BaseEP: NEW CMEndpoint f5201d54 TOTAL NOW=11 CALL_LIST=2
+3719405573mS CMCallEvt:    0.54177.0 -1 X Ray.-1: NEW CMExtnEndpoint f5201d54, Name=X Ray, Extn=223, Phys Extn=223
+3719405573mS CMExtnEvt:    X Ray: CMExtnHandler::SetCurrent( id: 0->54177 )
+3719405573mS CMTARGET:     0.54177.0 -1 X Ray.0: ADD COVERAGE (DefinityLineAppearance)
+3719405574mS CMCallEvt:    0.54178.0 -1 BaseEP: NEW CMEndpoint f51838f8 TOTAL NOW=12 CALL_LIST=2
+3719405574mS CMCallEvt:    0.54178.0 -1 Treatment.-1: NEW CMExtnEndpoint f51838f8, Name=Treatment, Extn=224, Phys Extn=224
+3719405574mS CMExtnEvt:    Treatment: CMExtnHandler::SetCurrent( id: 0->54178 )
+3719405574mS CMTARGET:     0.54178.0 -1 Treatment.0: ADD COVERAGE (DefinityLineAppearance)
+3719405575mS CMCallEvt:    0.54179.0 -1 BaseEP: NEW CMEndpoint f51f8ff4 TOTAL NOW=13 CALL_LIST=2
+3719405575mS CMCallEvt:    0.54179.0 -1 Johanna.-1: NEW CMExtnEndpoint f51f8ff4, Name=Johanna, Extn=225, Phys Extn=225
+3719405575mS CMExtnEvt:    Johanna: CMExtnHandler::SetCurrent( id: 0->54179 )
+3719405575mS CMTARGET:     0.54179.0 -1 Johanna.0: ADD COVERAGE (DefinityLineAppearance)
+3719405576mS CMCallEvt:    0.54180.0 -1 BaseEP: NEW CMEndpoint f51f76ec TOTAL NOW=14 CALL_LIST=2
+3719405576mS CMCallEvt:    0.54180.0 -1 Reception 2.-1: NEW CMExtnEndpoint f51f76ec, Name=Reception 2, Extn=232, Phys Extn=232
+3719405577mS CMTARGET:     0.54180.0 -1 Reception 2.1: ADD COVERAGE (DefinityLineAppearance)
+3719405577mS CMCallEvt:    0.54181.0 -1 BaseEP: NEW CMEndpoint f51ef9c4 TOTAL NOW=15 CALL_LIST=2
+3719405577mS CMCallEvt:    0.54181.0 -1 Surgery.-1: NEW CMExtnEndpoint f51ef9c4, Name=Surgery, Extn=229, Phys Extn=229
+3719405578mS CMExtnEvt:    Surgery: CMExtnHandler::SetCurrent( id: 0->54181 )
+3719405578mS CMTARGET:     0.54181.0 -1 Surgery.0: ADD COVERAGE (DefinityLineAppearance)
+3719405579mS CMTARGET:     2.3.1 8922 Alog Trunk:2: INITIAL TARGETING SUCCEEDED
+3719405579mS CMTARGET:     2.3.1 8922 Alog Trunk:2: GetNoAnswerTimer:15
+3719405579mS CMCallEvt:    2.3.1 8922 Alog Trunk:2: StateChange: END=A CMCSDialInitiated->CMCSDialled
+3719405580mS CMCallEvt:    0.54170.0 8922 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3719405582mS CMCallEvt:    0.54172.0 8922 Pharmacy.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405582mS CMExtnEvt:    Pharmacy: CMExtnHandler::SetCurrent( id: 0->54172 )
+3719405582mS CMExtnTx: v=231, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54172 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIEMohSourceId (247) MOH Source = 1
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405583mS CMExtnRx: v=231, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 3 Call: lid=0 id=54172 in=0
+3719405583mS CMCallEvt:    0.54172.0 8922 Pharmacy.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405583mS CMExtnEvt:    v=5 State, new=Ringing  old=Idle,0,0,Pharmacy
+3719405584mS CMCallEvt:    0.54170.0 8922 TargetingEP: StateChange: END=B CMCSOffering->CMCSRinging
+3719405585mS CMCallEvt:    2.3.1 8922 Alog Trunk:2: StateChange: END=A CMCSDialled->CMCSRingBack
+3719405587mS CMCallEvt:    0.54173.0 8922 Reception.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405587mS CMExtnEvt:    Reception: CMExtnHandler::SetCurrent( id: 0->54173 )
+3719405587mS CMExtnTx: v=221, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54173 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405588mS CMExtnRx: v=221, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54173 in=0
+3719405588mS CMCallEvt:    0.54173.0 8922 Reception.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405588mS CMExtnEvt:    v=1 State, new=Ringing  old=Idle,0,0,Reception
+3719405590mS CMCallEvt:    0.54174.0 8922 Records.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405590mS CMExtnEvt:    Records: CMExtnHandler::SetCurrent( id: 0->54174 )
+3719405590mS CMExtnTx: v=227, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54174 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405591mS CMExtnRx: v=227, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 3 Call: lid=0 id=54174 in=0
+3719405591mS CMCallEvt:    0.54174.0 8922 Records.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405591mS CMExtnEvt:    v=1 State, new=Ringing  old=Idle,0,0,Records
+3719405593mS CMCallEvt:    0.54175.0 8922 Mark.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405593mS CMExtnTx: v=226, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54175 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405594mS CMExtnRx: v=226, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54175 in=0
+3719405594mS CMCallEvt:    0.54175.0 8922 Mark.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405594mS CMExtnEvt:    v=6 State, new=Ringing  old=Idle,0,0,Mark
+3719405595mS CMCallEvt:    0.54176.0 8922 Office.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405596mS CMExtnTx: v=222, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405596mS CMExtnRx: v=222, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+3719405596mS CMCallEvt:    0.54176.0 8922 Office.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405596mS CMExtnEvt:    v=2 State, new=Ringing  old=Idle,0,0,Office
+3719405598mS CMCallEvt:    0.54177.0 8922 X Ray.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405598mS CMExtnTx: v=223, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54177 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405599mS CMExtnRx: v=223, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54177 in=0
+3719405599mS CMCallEvt:    0.54177.0 8922 X Ray.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405599mS CMExtnEvt:    v=3 State, new=Ringing  old=Idle,0,0,X Ray
+3719405608mS CMMap: a=1.2 b=0.0 R1
+3719405609mS CMCallEvt:    0.54178.0 8922 Treatment.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405609mS CMExtnTx: v=224, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54178 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405609mS CMExtnRx: v=224, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54178 in=0
+3719405610mS CMCallEvt:    0.54178.0 8922 Treatment.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405610mS CMExtnEvt:    v=4 State, new=Ringing  old=Idle,0,0,Treatment
+3719405611mS CMCallEvt:    0.54179.0 8922 Johanna.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405611mS CMExtnTx: v=225, p1=0
+            CMSetup
+            Line: type=DigitalExtn 2 Call: lid=0 id=54179 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405611mS CMExtnRx: v=225, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 2 Call: lid=0 id=54179 in=0
+3719405612mS CMCallEvt:    0.54179.0 8922 Johanna.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405612mS CMExtnEvt:    v=5 State, new=Ringing  old=Idle,0,0,Johanna
+3719405613mS CMCallEvt:    0.54180.0 8922 Reception 2.1: StateChange: END=T CMCSIdle->CMCSOffering
+3719405613mS CMExtnTx: v=232, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54180 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405613mS CMExtnRx: v=232, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 3 Call: lid=0 id=54180 in=0
+3719405614mS CMCallEvt:    0.54180.0 8922 Reception 2.1: StateChange: END=T CMCSOffering->CMCSRinging
+3719405614mS CMCallEvt:    0.54181.0 8922 Surgery.0: StateChange: END=T CMCSIdle->CMCSOffering
+3719405615mS CMExtnTx: v=229, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54181 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  SndComp Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECalledPartyName (224)(Type=CMNameDefault) name=Main
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIEOriginalCalledPartyName (236)(Type=CMNameDefault) name=Main
+            IE CMIEOriginalCalledPartyNumber (238)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIERedirectingPartyName (232)(Type=CMNameDefault) name=Main
+            IE CMIERedirectingPartyNumber (234)(P:100 S:100 T:100 N:100 R:4) number=200
+            IE CMIEDIDNumber (245)(P:100 S:100 T:100 N:100 R:4) number=877-2509
+            IE CMIERespondingPartyName (228)(Type=CMNameDefault) name=CATS,AFFECTIONATELY
+            IE CMIERespondingPartyNumber (230)(P:0 S:3 T:0 N:0 R:4) number=8028602296
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=2 channel=0 rx_gain=32 tx_gain=32 ep_callid=3 ipaddr=192.168.0.99 apps=0
+            IE CMIEIcrPriorityDetail (239) Priority = 1
+            IE CMIEMohSourceId (247) MOH Source = 1
+            UUI type=User2User [.] [0xff ]
+            Display [CATS,AFFECTIONATELY>Main]
+            Timed: 07/05/15 10:17
+            Locale: enu
+3719405615mS CMExtnRx: v=229, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 3 Call: lid=0 id=54181 in=0
+3719405615mS CMCallEvt:    0.54181.0 8922 Surgery.0: StateChange: END=T CMCSOffering->CMCSRinging
+3719405615mS CMExtnEvt:    v=3 State, new=Ringing  old=Idle,0,0,Surgery
+3719405617mS CD: CALL: 2.3.1 BState=Ringing Cut=1 Music=2.0 Aend="Line 2" (1.2) Bend="Main(200)" [Pharmacy(231),Reception(221),Records(227),Mark(226),...] (0.0) CalledNum=200 (Main) CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=57 AState=Ri
+             gin
+3719405617mS CD2: CALL:S 2.3.1,0.54170.0,1,1,1,2,0,0,Line 2,,Pharmacy(231);Reception(221);Records(227);Mark(226);...,1.2,0.0,100.0,200,0.0,8028602296,,,0,,100,,0,16,0,1,0.0,,Main,,Main,,,0,57,0,33,0,0,enu,,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719405622mS CD: CALLSYNC: cs02
+3719409281mS DTM: 07/05/2015 09:50:14 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719414443mS CMExtnRx: v=222, p1=0
+            CMConnect
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+3719414443mS CMCallEvt:    0.54176.0 8922 Office.0: StateChange: END=T CMCSRinging->CMCSConnReq
+3719414444mS CMCallEvt:    0.54170.0 8922 TargetingEP: RequestEnd 0.54176.0 8922 Office.0
+3719414444mS CMTARGET:     2.3.1 8922 Alog Trunk:2: Removed HG from Callinfo
+3719414444mS CMCallEvt:    0.54171.0 8922 ACDTep(Main): StateChange: END=??? CMCSIdle->CMCSDelete
+3719414444mS CMCallEvt:    0.54171.0 -1 BaseEP: DELETE CMEndpoint f5192264 TOTAL NOW=14 CALL_LIST=2
+3719414445mS CMTARGET:     2.3.1 8922 Alog Trunk:2: CancelTimer CMTCNoAnswerTimeout
+3719414445mS CMCallEvt:    0.54170.0 -1 BaseEP: DELETE CMEndpoint f519b768 TOTAL NOW=13 CALL_LIST=2
+3719414446mS CMExtnEvt:    Pharmacy: CALL LOST (CMCauseAnsweredByOther)
+3719414446mS CMExtnEvt:    Pharmacy: Extn(231) Calling Party Number(8028602296) Type(CMNTypeUnknown)
+3719414446mS CMCallEvt:    0.54172.0 -1 Pharmacy.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414446mS CMExtnEvt:    v=5 State, new=PortRecoverDelay  old=Ringing,0,0,Pharmacy
+3719414447mS CMExtnTx: v=231, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54172 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414447mS CMExtnEvt:    Pharmacy: CMExtnHandler::SetCurrent( id: 54172->0 )
+3719414448mS CMCallEvt:    0.54172.0 -1 Pharmacy.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414448mS CMCallEvt:    0.54172.0 -1 BaseEP: DELETE CMEndpoint f51f2bd4 TOTAL NOW=12 CALL_LIST=2
+3719414449mS CMExtnEvt:    Reception: CALL LOST (CMCauseAnsweredByOther)
+3719414449mS CMExtnEvt:    Reception: Extn(221) Calling Party Number(8028602296) Type(CMNTypeUnknown)
+3719414449mS CMCallEvt:    0.54173.0 -1 Reception.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414449mS CMExtnEvt:    v=1 State, new=PortRecoverDelay  old=Ringing,0,0,Reception
+3719414450mS CMExtnTx: v=221, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54173 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414450mS CMExtnEvt:    Reception: CMExtnHandler::SetCurrent( id: 54173->0 )
+3719414451mS CMCallEvt:    0.54173.0 -1 Reception.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414451mS CMCallEvt:    0.54173.0 -1 BaseEP: DELETE CMEndpoint f51ee0bc TOTAL NOW=11 CALL_LIST=2
+3719414452mS CMExtnEvt:    Records: CALL LOST (CMCauseAnsweredByOther)
+3719414452mS CMExtnEvt:    Records: Extn(227) Calling Party Number(8028602296) Type(CMNTypeUnknown)
+3719414452mS CMCallEvt:    0.54174.0 -1 Records.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414452mS CMExtnEvt:    v=1 State, new=PortRecoverDelay  old=Ringing,0,0,Records
+3719414453mS CMExtnTx: v=227, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54174 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414453mS CMExtnEvt:    Records: CMExtnHandler::SetCurrent( id: 54174->0 )
+3719414454mS CMCallEvt:    0.54174.0 -1 Records.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414454mS CMCallEvt:    0.54174.0 -1 BaseEP: DELETE CMEndpoint f51f5de4 TOTAL NOW=10 CALL_LIST=2
+3719414454mS CMExtnEvt:    Mark: CALL LOST (CMCauseAnsweredByOther)
+3719414454mS CMExtnEvt:    Mark: Extn(226) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414455mS CMCallEvt:    0.54175.0 -1 Mark.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414455mS CMExtnEvt:    v=6 State, new=PortRecoverDelay  old=Ringing,0,0,Mark
+3719414455mS CMExtnTx: v=226, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54175 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414455mS CMExtnEvt:    Mark: CMExtnHandler::SetCurrent( id: 54175->0 )
+3719414456mS CMCallEvt:    0.54175.0 -1 Mark.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414456mS CMCallEvt:    0.54175.0 -1 BaseEP: DELETE CMEndpoint f51f44dc TOTAL NOW=9 CALL_LIST=2
+3719414456mS CMExtnEvt:    X Ray: CALL LOST (CMCauseAnsweredByOther)
+3719414457mS CMExtnEvt:    X Ray: Extn(223) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414457mS CMCallEvt:    0.54177.0 -1 X Ray.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414457mS CMExtnEvt:    v=3 State, new=PortRecoverDelay  old=Ringing,0,0,X Ray
+3719414458mS CMExtnTx: v=223, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54177 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414458mS CMExtnEvt:    X Ray: CMExtnHandler::SetCurrent( id: 54177->0 )
+3719414458mS CMCallEvt:    0.54177.0 -1 X Ray.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414458mS CMCallEvt:    0.54177.0 -1 BaseEP: DELETE CMEndpoint f5201d54 TOTAL NOW=8 CALL_LIST=2
+3719414459mS CMExtnEvt:    Treatment: CALL LOST (CMCauseAnsweredByOther)
+3719414459mS CMExtnEvt:    Treatment: Extn(224) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414459mS CMCallEvt:    0.54178.0 -1 Treatment.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414459mS CMExtnEvt:    v=4 State, new=PortRecoverDelay  old=Ringing,0,0,Treatment
+3719414460mS CMExtnTx: v=224, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54178 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414460mS CMExtnEvt:    Treatment: CMExtnHandler::SetCurrent( id: 54178->0 )
+3719414461mS CMCallEvt:    0.54178.0 -1 Treatment.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414461mS CMCallEvt:    0.54178.0 -1 BaseEP: DELETE CMEndpoint f51838f8 TOTAL NOW=7 CALL_LIST=2
+3719414461mS CMExtnEvt:    Johanna: CALL LOST (CMCauseAnsweredByOther)
+3719414462mS CMExtnEvt:    Johanna: Extn(225) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414462mS CMCallEvt:    0.54179.0 -1 Johanna.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414462mS CMExtnEvt:    v=5 State, new=PortRecoverDelay  old=Ringing,0,0,Johanna
+3719414463mS CMExtnTx: v=225, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54179 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414463mS CMExtnEvt:    Johanna: CMExtnHandler::SetCurrent( id: 54179->0 )
+3719414463mS CMCallEvt:    0.54179.0 -1 Johanna.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414463mS CMCallEvt:    0.54179.0 -1 BaseEP: DELETE CMEndpoint f51f8ff4 TOTAL NOW=6 CALL_LIST=2
+3719414464mS CMExtnEvt:    Reception 2: CALL LOST (CMCauseAnsweredByOther)
+3719414464mS CMExtnEvt:    Reception 2: Extn(232) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414464mS CMExtnTx: v=232, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54180 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414465mS CMCallEvt:    0.54180.0 -1 Reception 2.-1: StateChange: END=X CMCSRinging->CMCSDelete
+3719414465mS CMCallEvt:    0.54180.0 -1 BaseEP: DELETE CMEndpoint f51f76ec TOTAL NOW=5 CALL_LIST=2
+3719414465mS CMExtnEvt:    Surgery: CALL LOST (CMCauseAnsweredByOther)
+3719414466mS CMExtnEvt:    Surgery: Extn(229) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719414466mS CMCallEvt:    0.54181.0 -1 Surgery.0: StateChange: END=X CMCSRinging->CMCSCompleted
+3719414466mS CMExtnEvt:    v=3 State, new=PortRecoverDelay  old=Ringing,0,0,Surgery
+3719414467mS CMExtnTx: v=229, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54181 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=124, Answered By Other(IPO)
+            Timed: 07/05/15 09:50
+3719414467mS CMExtnEvt:    Surgery: CMExtnHandler::SetCurrent( id: 54181->0 )
+3719414467mS CMCallEvt:    0.54181.0 -1 Surgery.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719414467mS CMCallEvt:    0.54181.0 -1 BaseEP: DELETE CMEndpoint f51ef9c4 TOTAL NOW=4 CALL_LIST=2
+3719414468mS CMExtnEvt:    v=2 State, new=Connected  old=Ringing,0,0,Office
+3719414469mS CMCallEvt:    2.3.1 8922 Alog Trunk:2: StateChange: END=A CMCSRingBack->CMCSOGConnReq
+3719414469mS CMCallEvt:    2.3.1 8922 Alog Trunk:2: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3719414469mS CMTARGET:     2.3.1 8922 Alog Trunk:2: ~CMTargetHandler f51c57ec ep f51c987c
+3719414470mS CMCallEvt:    0.54176.0 8922 Office.0: StateChange: END=B CMCSConnReq->CMCSConnected
+3719414471mS CMExtnTx: v=222, p1=0
+            CMConnectAck
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+            Timed: 07/05/15 09:50
+3719414472mS CD: CALL: 2.3.1 BState=Connected Cut=3 Music=0.0 Aend="Line 2" (1.2) Bend="" [Office(222)] (0.5) CalledNum=200 (Main) CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=8912 AState=Connected
+3719414473mS CD2: CALL:S 2.3.1,0.54170.0,2,2,1,0,1,0,Line 2,Office(222),,1.2,0.5,100.0,200,0.0,8028602296,,,0,,100,,0,16,0,1,0.0,,Main,,Main,,,0,8913,3,0,0,8884,enu,,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719414474mS CMMap: a=1.2 b=0.0 R0
+3719414475mS CMMap: PCG::MapBChan pcp[79]b1r0 cp_b f5989400 other_cp_b 0 type CGTypeSimple
+3719414475mS CMMap: PCG::MapBChan pcp[92]b1r0 cp_b f52b43c4 other_cp_b f5989400 type CGTypeSimple
+3719414475mS CMMap: a=1.2 b=0.5 M12
+3719414476mS CMExtnEvt:    Pharmacy: Recover Timer reason=CMTRWrapUp
+3719414476mS CMExtnEvt:    v=5 State, new=Idle  old=PortRecoverDelay,0,0,Pharmacy
+3719414477mS CMExtnEvt:    Reception: Recover Timer reason=CMTRWrapUp
+3719414477mS CMExtnEvt:    v=1 State, new=Idle  old=PortRecoverDelay,0,0,Reception
+3719414477mS CMExtnEvt:    Records: Recover Timer reason=CMTRWrapUp
+3719414477mS CMExtnEvt:    v=1 State, new=Idle  old=PortRecoverDelay,0,0,Records
+3719414478mS CMExtnEvt:    Mark: Recover Timer reason=CMTRWrapUp
+3719414478mS CMExtnEvt:    v=6 State, new=Idle  old=PortRecoverDelay,0,0,Mark
+3719414478mS CMExtnEvt:    X Ray: Recover Timer reason=CMTRWrapUp
+3719414479mS CMExtnEvt:    v=3 State, new=Idle  old=PortRecoverDelay,0,0,X Ray
+3719414479mS CMExtnEvt:    Treatment: Recover Timer reason=CMTRWrapUp
+3719414479mS CMExtnEvt:    v=4 State, new=Idle  old=PortRecoverDelay,0,0,Treatment
+3719414480mS CMExtnEvt:    Johanna: Recover Timer reason=CMTRWrapUp
+3719414480mS CMExtnEvt:    v=5 State, new=Idle  old=PortRecoverDelay,0,0,Johanna
+3719414481mS CMExtnEvt:    Surgery: Recover Timer reason=CMTRWrapUp
+3719414481mS CMExtnEvt:    v=3 State, new=Idle  old=PortRecoverDelay,0,0,Surgery
+3719415264mS LVMail:     FlashMan:  FiveMinuteActions:   Found language: ENU
+3719419285mS DTM: 07/05/2015 09:50:24 (Thu 07 May 2015) [192.168.0.99 (VSAH)] (mS skew=-1mS)
+3719426785mS PRN: Reception 2: Feature Key Pressed 2:DCPLFeatureHold
+3719426785mS CMExtnRx: v=232, p1=0
+            CMFacility
+            Line: type=DigitalExtn 3 Call: lid=0 id=54168 in=0
+            IE CMIESupplementaryService (3)
+              Network Facility Extension
+                sourceEntity: 0
+                destinationEntity: 0
+              Interpretation APDU
+                discardAnyUnrecognisedInvokePdu
+              RemoteHold.Invoke.CodePageUnknown
+                invokeId  19299
+3719426785mS CMExtnEvt:    Reception 2: CMExtnHandler::SetCurrent( id: 54168->0 )
+3719426786mS CMExtnEvt:    v=6 State, new=PortRecoverDelay  old=Connected,0,0,Reception 2
+3719426787mS CD: CALL: 1.2.1 BState=Connected Cut=1 Music=1.0 Aend="Line 1" (1.1) Bend="" [Reception 2(232)] (2.21) CalledNum=232 (Reception 2) CallingNum=8023733665 (ALLEN ASHLIE   ) Internal=0 Time=166070 AState=Connected
+3719426787mS CD2: CALL:S 1.2.1,0.54153.0,2,2,1,1,0,0,Line 1,Reception 2(232),,1.1,2.21,100.100,232,0.0,8023733665,,,0,,100,,0,118,0,0,0.0,,Main,,Main,,,0,166070,107487,0,56637,1920,enu,,0,,0,0,0,0,,8920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719426788mS CMMap: PCG::UnmapBChan pcp[77]b1r0 cp_b f598ba24 other_cp_b f52b08fc
+3719426788mS CMMap: a=2.21 b=1.1 M02
+3719426788mS CMMap: PCG::UnmapBChan pcp[96]b1r0 cp_b f52b08fc other_cp_b 0
+3719426788mS CMMap: a=1.1 b=0.0 H1
+3719428786mS CMExtnEvt:    Reception 2: Recover Timer reason=CMTRWrapUp
+3719428786mS CMExtnEvt:    v=6 State, new=Idle  old=PortRecoverDelay,0,0,Reception 2
+3719428787mS CMExtnTx: v=232, p1=0
+            CMVoiceMailStatus
+            Line: type=DigitalExtn 3 Call: lid=0 id=-1 in=0
+            Called[Reception 2 Msgs=0 Old=0 Sav=0] Type=Default (100) Reason=CMDRdirect  Calling[00000000] Type=Default Plan=Default 
+            Display [Reception 2 Msgs=0]
+            Timed: 07/05/15 09:50
+3719429289mS DTM: 07/05/2015 09:50:33 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719432788mS PRN: Office: Feature Key Pressed 2:DCPLFeatureHold
+3719432788mS CMExtnRx: v=222, p1=0
+            CMFacility
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+            IE CMIESupplementaryService (3)
+              Network Facility Extension
+                sourceEntity: 0
+                destinationEntity: 0
+              Interpretation APDU
+                discardAnyUnrecognisedInvokePdu
+              RemoteHold.Invoke.CodePageUnknown
+                invokeId  19301
+3719432788mS CMExtnEvt:    Office: CMExtnHandler::SetCurrent( id: 54176->0 )
+3719432789mS CMExtnEvt:    v=2 State, new=PortRecoverDelay  old=Connected,0,0,Office
+3719432790mS CD: CALL: 2.3.1 BState=Connected Cut=1 Music=1.0 Aend="Line 2" (1.2) Bend="" [Office(222)] (0.5) CalledNum=200 (Main) CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=27230 AState=Connected
+3719432790mS CD2: CALL:S 2.3.1,0.54170.0,2,2,1,1,0,0,Line 2,Office(222),,1.2,0.5,100.0,200,0.0,8028602296,,,0,,100,,0,16,0,1,0.0,,Main,,Main,,,0,27230,18320,0,0,8884,enu,,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719432791mS CMMap: PCG::UnmapBChan pcp[79]b1r0 cp_b f5989400 other_cp_b f52b43c4
+3719432791mS CMMap: a=0.5 b=1.2 M02
+3719432791mS CMMap: PCG::UnmapBChan pcp[92]b1r0 cp_b f52b43c4 other_cp_b 0
+3719432791mS CMMap: a=1.2 b=0.0 H1
+3719434292mS DTM: 07/05/2015 09:50:39 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719434789mS CMExtnEvt:    Office: Recover Timer reason=CMTRWrapUp
+3719434789mS CMExtnEvt:    v=2 State, new=Idle  old=PortRecoverDelay,0,0,Office
+3719434789mS CMExtnTx: v=222, p1=0
+            CMVoiceMailStatus
+            Line: type=DigitalExtn 2 Call: lid=0 id=-1 in=0
+            Called[Office Msgs=0 Old=0 Sav=0] Type=Default (100) Reason=CMDRdirect  Calling[00000000] Type=Default Plan=Default 
+            Display [Office Msgs=0]
+            Timed: 07/05/15 09:50
+3719439293mS DTM: 07/05/2015 09:50:44 (Thu 07 May 2015) [192.168.0.99 (VSAH)] (mS skew=-1mS)
+3719457066mS CMCallEvt:    0.54182.0 -1 BaseEP: NEW CMEndpoint f51ef9c4 TOTAL NOW=5 CALL_LIST=2
+3719457066mS CMCallEvt:    0.54182.0 -1 Reception 2.-1: NEW CMExtnEndpoint f51ef9c4, Name=Reception 2, Extn=232, Phys Extn=232
+3719457066mS CMCallEvt:    CREATE CALL:8923 (f5208a30)
+3719457066mS CMCallEvt:    0.54183.0 -1 BaseEP: NEW CMEndpoint f519b768 TOTAL NOW=6 CALL_LIST=2
+3719457068mS CMExtnEvt:    Reception 2: CMExtnHandler::SetCurrent( id: 0->54182 )
+3719457068mS CMExtnRx: v=232, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54182 in=0
+            Called[] Type=Default (100) Reason=CMDRdirect  Calling[232] Type=Internal Plan=Default 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=Reception 2
+3719457068mS CMCallEvt:    0.54182.0 8923 Reception 2.1: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3719457068mS CMExtnEvt:    v=6 State, new=Dialling  old=Idle,0,0,Reception 2
+3719457069mS CMTARGET:     0.54182.0 8923 Reception 2.1: LOOKUP CALL ROUTE: type=100 called_party= sub= calling=232 dir=out complete=0 ses=0
+3719457069mS CMTARGET:     0.54182.0 8923 Reception 2.1: ADD TARGET (N): number= type=100 depth=1 nobar=1 setorig=1 ses=0
+3719457070mS CMCallEvt:    0.54182.0 8923 Reception 2.1: StateChange: END=A CMCSDialInitiated->CMCSDialling
+3719457070mS CMExtnTx: v=232, p1=0
+            CMSetupAck
+            Line: type=DigitalExtn 3 Call: lid=0 id=54182 in=0
+            BChan: slot=2 chan=21
+            Timed: 07/05/15 09:51
+3719457072mS CD: CALL: 0.54182.0 BState=Idle Cut=1 Music=3.0 Aend="Reception 2(232)" (2.21) Bend="" [] (0.0) CalledNum= () CallingNum=232 (Reception 2) Internal=1 Time=6 AState=DialInitiated
+3719457072mS CD2: CALL:S 0.54182.0,0.54183.0,9,0,1,3,0,0,Reception 2(232),,,2.21,0.0,100.100,,100.101,232,,,100,,100,,0,16,0,0,0.0,,,,,,,1,6,0,0,0,0,enu,,0,,0,0,0,0,,8923,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719457073mS CMMap: a=2.21 b=0.0 D1
+3719457075mS CD: CALLSYNC: cs02
+3719457262mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Reception 2: DSS Appearance Key Pressed 3
+3719457262mS CMCallEvt:    0.54176.0 8922 Office.0: MakeParkEndpoint @TEMP702 timeout=0ms RecoverTo=222
+3719457262mS CMCallEvt:    0.54184.0 -1 BaseEP: NEW CMEndpoint f51ba8f4 TOTAL NOW=7 CALL_LIST=3
+3719457263mS CD: CALL: 2.3.1 BState=Connected Cut=1 Music=1.0 Aend="Line 2" (1.2) Bend="" [Office(222)] (0.5) CalledNum=200 (Main) CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=51703 AState=Connected
+3719457263mS CD2: CALL:S 2.3.1,0.54170.0,2,2,1,1,0,0,Line 2,Office(222),,1.2,0.5,100.0,200,0.0,8028602296,,,0,,100,,0,16,0,1,0.0,,Main,,Main,,,0,51703,42793,0,0,8884,enu,,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719457264mS CMExtnEvt:    Office: CALL LOST (CMCauseParked)
+3719457264mS CMExtnEvt:    Office: Extn(222) Calling Party Number(8028602296) Type(CMNTypeUnknown) LINE APP ONLY
+3719457264mS CMExtnTx: v=222, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 2 Call: lid=0 id=54176 in=0
+            Called[200] Type=Unknown (0) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            Cause=117, Parked(IPO)
+            Timed: 07/05/15 09:51
+3719457265mS CMCallEvt:    0.54176.0 -1 Office.-1: StateChange: END=X CMCSConnected->CMCSDelete
+3719457266mS CMCallEvt:    0.54176.0 -1 BaseEP: DELETE CMEndpoint f5180598 TOTAL NOW=6 CALL_LIST=3
+3719457267mS CMCallEvt:    0.54185.0 -1 BaseEP: NEW CMEndpoint f5180598 TOTAL NOW=7 CALL_LIST=3
+3719457267mS CMCallEvt:    0.54185.0 -1 Reception 2.-1: NEW CMExtnEndpoint f5180598, Name=Reception 2, Extn=232, Phys Extn=232
+3719457267mS CMExtnEvt:    Reception 2: CMExtnHandler::SetCurrent( id: 54182->54185 )
+3719457267mS CMCallEvt:    0.54182.0 8923 Reception 2.1: StateChange: END=A CMCSDialling->CMCSCompleted
+3719457268mS CMLOGGING:     CALL:2015/05/0709:51,00:00:00,000,232,O,,,Reception2,,,1,,""n/a,0
+3719457268mS CD: CALL: 0.54182.0 BState=Idle Cut=0 Music=0.0 Aend="Reception 2(232)" (2.21) Bend="" [] (0.0) CalledNum= () CallingNum=232 (Reception 2) Internal=1 Time=202 AState=Idle
+3719457269mS CD2: CALL:S 0.54182.0,0.54183.0,0,0,0,0,0,0,Reception 2(232),,,2.21,0.0,100.100,,100.101,232,,,100,,100,,0,16,0,0,0.0,,,,,,,1,203,0,0,0,0,enu,,0,,0,0,0,0,,8923,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719457269mS CD: CALL: 0.54182.0 Deleted
+3719457269mS CD2: CALL:D 0.54182.0,0.54183.0,8923,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719457269mS CMExtnEvt:    Reception 2: CALL LOST (CMCauseNormal)
+3719457269mS CMExtnEvt:    Reception 2: Extn(232) Calling Party Number(232) Type(CMNTypeInternal)
+3719457269mS CMExtnEvt:    v=6 State, new=Idle  old=Dialling,0,0,Reception 2
+3719457270mS CMCallEvt:    0.54182.0 -1 Reception 2.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719457270mS CMCallEvt:    0.54183.0 -1 BaseEP: DELETE CMEndpoint f519b768 TOTAL NOW=6 CALL_LIST=2
+3719457271mS CMCallEvt:    END CALL:8923 (f5208a30)
+3719457271mS CMTARGET:     0.54182.0 -1 BaseEP: ~CMTargetHandler f51c57ec ep f51ef9c4
+3719457271mS CMCallEvt:    0.54182.0 -1 BaseEP: DELETE CMEndpoint f51ef9c4 TOTAL NOW=5 CALL_LIST=2
+3719457272mS CMCallEvt:    0.54185.0 -1 Reception 2.1: REVCALL INIT display=
+3719457272mS CMExtnTx: v=232, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54185 in=0
+            Called[232] Type=Direct (105) Reason=CMDRdirect  Calling[8028602296] Type=Unknown Plan=Unknown Pres=Allowed (0) 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            Timed: 07/05/15 09:51
+3719457272mS CMExtnRx: v=232, p1=0
+            CMAlerting
+            Line: type=DigitalExtn 3 Call: lid=0 id=54185 in=0
+3719457273mS CD: CALL: 2.3.1 BState=Idle Cut=1 Music=1.0 Aend="Line 2" (1.2) Bend="" [TEMP702] (0.0) CalledNum=200 (Main) CallingNum=8028602296 (CATS,AFFECTIONATELY) Internal=0 Time=51713 AState=CMSubNormalCall
+3719457273mS CD2: CALL:S 2.3.1,0.54170.0,11,0,1,1,0,0,Line 2,,,1.2,0.0,100.0,200,0.0,8028602296,,,0,,100,,0,16,0,1,0.0,,Main,,Main,,,0,51713,42803,0,0,8884,enu,TEMP702,0,,0,0,0,0,,8922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719457274mS CMMap: a=2.21 b=0.0 D0
+3719457279mS CD: CALLSYNC: cs02
+3719459293mS DTM: 07/05/2015 09:51:04 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+
+********** SysMonitor v10.1 (67) [connected to 192.168.0.99 (VSAH)] **********
+3719459832mS PRN: Monitor Status  IP 500 V2 8.1(65)
+3719459832mS PRN: LAW=U PRI=0, BRI=0, ALOG=8, VCOMP=20, MDM=0, WAN=0, MODU=0 LANM=0 CkSRC=0 VMAIL=1(VER=2 TYP=3) 1-X=0 CALLS=2(TOT=8923)
+3719462273mS PRN: Reception 2: Feature Key Pressed 2:DCPLFeatureHold
+3719462922mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Reception 2: DSS Appearance Key Pressed 2
+3719462922mS CMExtnEvt:    Reception 2: CMExtnHandler::SetCurrent( id: 54185->54168 )
+3719462922mS CMCallEvt:    0.54185.0 -1 Reception 2.1: StateChange: END=X CMCSIdle->CMCSCompleted
+3719462923mS CMExtnEvt:    Reception 2: CALL LOST (CMCauseNormal)
+3719462923mS CMExtnEvt:    Reception 2: Extn(232) Calling Party Number(8028602296) Type(CMNTypeUnknown)
+3719462923mS CMCallEvt:    0.54185.0 -1 Reception 2.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719462924mS CMCallEvt:    0.54185.0 -1 BaseEP: DELETE CMEndpoint f5180598 TOTAL NOW=4 CALL_LIST=2
+3719462925mS CMExtnEvt:    v=6 State, new=Connected  old=Idle,0,0,Reception 2
+3719462926mS CD: CALL: 1.2.1 BState=Connected Cut=3 Music=0.0 Aend="Line 1" (1.1) Bend="" [Reception 2(232)] (2.21) CalledNum=232 (Reception 2) CallingNum=8023733665 (ALLEN ASHLIE   ) Internal=0 Time=202209 AState=Connected
+3719462926mS CD2: CALL:S 1.2.1,0.54153.0,2,2,1,0,1,0,Line 1,Reception 2(232),,1.1,2.21,100.100,232,0.0,8023733665,,,0,,100,,0,118,0,0,0.0,,Main,,Main,,,0,202209,143626,0,56637,1920,enu,,0,,0,0,0,0,,8920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719462927mS CMMap: a=1.1 b=0.0 H0
+3719462927mS CMMap: PCG::MapBChan pcp[77]b1r0 cp_b f598ba24 other_cp_b 0 type CGTypeSimple
+3719462927mS CMMap: PCG::MapBChan pcp[96]b1r0 cp_b f52b08fc other_cp_b f598ba24 type CGTypeSimple
+3719462927mS CMMap: a=1.1 b=2.21 M12
+3719464293mS DTM: 07/05/2015 09:51:09 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719468040mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Records: DSS Appearance Key Pressed 3
+3719468160mS CMCallEvt:    0.54186.0 -1 BaseEP: NEW CMEndpoint f5180598 TOTAL NOW=5 CALL_LIST=2
+3719468160mS CMCallEvt:    0.54186.0 -1 Records.-1: NEW CMExtnEndpoint f5180598, Name=Records, Extn=227, Phys Extn=227
+3719468160mS CMCallEvt:    CREATE CALL:8924 (f5208a30)
+3719468161mS CMCallEvt:    0.54187.0 -1 BaseEP: NEW CMEndpoint f519b768 TOTAL NOW=6 CALL_LIST=2
+3719468162mS CMExtnEvt:    Records: CMExtnHandler::SetCurrent( id: 0->54186 )
+3719468162mS CMExtnRx: v=227, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54186 in=0
+            Called[] Type=Default (100) Reason=CMDRdirect  Calling[227] Type=Internal Plan=Default 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=Records
+3719468163mS CMCallEvt:    0.54186.0 8924 Records.0: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3719468163mS CMExtnEvt:    v=1 State, new=Dialling  old=Idle,0,0,Records
+3719468163mS CMTARGET:     0.54186.0 8924 Records.0: LOOKUP CALL ROUTE: type=100 called_party= sub= calling=227 dir=out complete=0 ses=0
+3719468164mS CMTARGET:     0.54186.0 8924 Records.0: ADD TARGET (N): number= type=100 depth=1 nobar=1 setorig=1 ses=0
+3719468164mS CMCallEvt:    0.54186.0 8924 Records.0: StateChange: END=A CMCSDialInitiated->CMCSDialling
+3719468165mS CMExtnTx: v=227, p1=0
+            CMSetupAck
+            Line: type=DigitalExtn 3 Call: lid=0 id=54186 in=0
+            BChan: slot=2 chan=1
+            Timed: 07/05/15 09:51
+3719468166mS CD: CALL: 0.54186.0 BState=Idle Cut=1 Music=3.0 Aend="Records(227)" (2.1) Bend="" [] (0.0) CalledNum= () CallingNum=227 (Records) Internal=1 Time=6 AState=DialInitiated
+3719468166mS CD2: CALL:S 0.54186.0,0.54187.0,9,0,1,3,0,0,Records(227),,,2.1,0.0,100.100,,100.101,227,,,100,,100,,0,16,0,0,0.0,,,,,,,1,6,0,0,0,0,enu,,0,,0,0,0,0,,8924,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719468167mS CMMap: a=2.1 b=0.0 D1
+3719468169mS CD: CALLSYNC: cs02
+3719469253mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Records: DSS Appearance Key Pressed 3
+3719469293mS DTM: 07/05/2015 09:51:14 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719474165mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Records: DSS Appearance Key Pressed 3
+3719474293mS DTM: 07/05/2015 09:51:19 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719493564mS CMExtnEvt:    Office: No user activity
+3719493738mS CMExtnRx: v=232, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54168 in=0
+3719493738mS CMCallEvt:    0.54168.0 8920 Reception 2.0: StateChange: END=B CMCSConnected->CMCSCompleted
+3719493739mS CMExtnEvt:    v=6 State, new=PortRecoverDelay  old=Connected,0,0,Reception 2
+3719493740mS CMLOGGING:     CALL:2015/05/0709:47,00:03:51,001,8023733665,I,200,,ALLENASHLIE,,,0,,""n/a,0
+3719493740mS CD: CALL: 1.2.1 BState=Disconnecting Cut=1 Music=0.0 Aend="Line 1" (1.1) Bend="" [Reception 2(232)] (2.21) CalledNum=232 (Reception 2) CallingNum=8023733665 (ALLEN ASHLIE   ) Internal=0 Time=233023 AState=Connected
+3719493741mS CD2: CALL:S 1.2.1,0.54153.0,2,3,1,0,0,0,Line 1,Reception 2(232),,1.1,2.21,100.100,232,0.0,8023733665,,,0,,100,,0,118,0,0,0.0,,Main,,Main,,,0,233024,0,0,231076,1920,enu,,0,,0,0,0,0,,8920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719493741mS CD: CALL: 1.2.1 Deleted
+3719493741mS CD2: CALL:D 1.2.1,0.54153.0,8920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719493742mS CMCallEvt:    1.2.1 -1 Alog Trunk:1: StateChange: END=X CMCSConnected->CMCSDelete
+3719493742mS CMCallEvt:    1.2.1 -1 BaseEP: DELETE CMEndpoint f519d120 TOTAL NOW=5 CALL_LIST=2
+3719493743mS CMExtnEvt:    Reception 2: CALL LOST (CMCauseNormal)
+3719493743mS CMExtnEvt:    Reception 2: Extn(232) Calling Party Number(232) Type(CMNTypeInternal)
+3719493743mS CMExtnEvt:    Reception 2: CMExtnHandler::SetCurrent( id: 54168->0 )
+3719493743mS CMCallEvt:    0.54168.0 -1 Reception 2.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719493744mS CMCallEvt:    END CALL:8920 (f522eeac)
+3719493744mS CMCallEvt:    0.54168.0 -1 BaseEP: DELETE CMEndpoint f5189fb8 TOTAL NOW=4 CALL_LIST=2
+3719493746mS CMMap: PCG::UnmapBChan pcp[77]b1r0 cp_b f598ba24 other_cp_b f52b08fc
+3719493746mS CMMap: a=2.21 b=1.1 M02
+3719493747mS CMMap: PCG::UnmapBChan pcp[96]b1r0 cp_b f52b08fc other_cp_b 0
+3719493748mS CD: CALLSYNC: cs02
+3719494296mS DTM: 07/05/2015 09:51:38 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719495744mS CMExtnEvt:    Reception 2: Recover Timer reason=CMTRWrapUp
+3719495744mS CMExtnEvt:    v=6 State, new=Idle  old=PortRecoverDelay,0,0,Reception 2
+3719495745mS CMExtnTx: v=232, p1=0
+            CMVoiceMailStatus
+            Line: type=DigitalExtn 3 Call: lid=0 id=-1 in=0
+            Called[Reception 2 Msgs=0 Old=0 Sav=0] Type=Default (100) Reason=CMDRdirect  Calling[00000000] Type=Default Plan=Default 
+            Display [Reception 2 Msgs=0]
+            Timed: 07/05/15 09:51
+3719498163mS CMTARGET:     0.54186.0 8924 Records.0: TimerExpired cause=CMTCDialToneTimeout
+3719498163mS CMLOGGING:     CALL:2015/05/0709:51,00:00:00,000,227,O,,,Records,,,1,,""n/a,0
+3719498163mS CD: CALL: 0.54186.0 BState=Idle Cut=1 Music=3.0 Aend="Records(227)" (2.1) Bend="" [] (0.0) CalledNum= () CallingNum=227 (Records) Internal=1 Time=30003 AState=DialInitiated
+3719498163mS CD2: CALL:S 0.54186.0,0.54187.0,9,0,1,3,0,0,Records(227),,,2.1,0.0,100.100,,100.101,227,,,100,,100,,0,16,0,0,0.0,,,,,,,1,30003,0,0,0,0,enu,,0,,0,0,0,0,,8924,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719498163mS CD: CALL: 0.54186.0 Deleted
+3719498164mS CD2: CALL:D 0.54186.0,0.54187.0,8924,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719498164mS CMExtnEvt:    Records: CALL LOST (CMCauseDialToneTimeout)
+3719498164mS CMExtnEvt:    Records: Extn(227) Calling Party Number(227) Type(CMNTypeInternal)
+3719498164mS CMCallEvt:    0.54186.0 -1 Records.0: StateChange: END=X CMCSDialling->CMCSCompleted
+3719498165mS CMExtnEvt:    v=1 State, new=PortRecoverDelay  old=Dialling,0,0,Records
+3719498165mS CMExtnTx: v=227, p1=0
+            CMReleaseComp
+            Line: type=DigitalExtn 3 Call: lid=0 id=54186 in=0
+            Called[] Type=Default (100) Reason=CMDRdirect  Calling[227] Type=Internal Plan=Default 
+            Cause=171, Dial Tone Timeout(IPO)
+            Timed: 07/05/15 09:51
+3719498166mS CMExtnEvt:    Records: CMExtnHandler::SetCurrent( id: 54186->0 )
+3719498166mS CMCallEvt:    0.54186.0 -1 Records.-1: StateChange: END=X CMCSCompleted->CMCSDelete
+3719498166mS CMCallEvt:    0.54187.0 -1 BaseEP: DELETE CMEndpoint f519b768 TOTAL NOW=3 CALL_LIST=1
+3719498167mS CMCallEvt:    END CALL:8924 (f5208a30)
+3719498167mS CMTARGET:     0.54186.0 -1 BaseEP: ~CMTargetHandler f51c57ec ep f5180598
+3719498167mS CMCallEvt:    0.54186.0 -1 BaseEP: DELETE CMEndpoint f5180598 TOTAL NOW=2 CALL_LIST=1
+3719498168mS CMMap: a=2.1 b=0.0 D0
+3719499296mS DTM: 07/05/2015 09:51:44 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719500166mS CMExtnEvt:    Records: Recover Timer reason=CMTRWrapUp
+3719500166mS CMExtnEvt:    v=1 State, new=Idle  old=PortRecoverDelay,0,0,Records
+3719500167mS CMExtnTx: v=227, p1=0
+            CMVoiceMailStatus
+            Line: type=DigitalExtn 3 Call: lid=0 id=-1 in=0
+            Called[Records Msgs=0 Old=0 Sav=0] Type=Default (100) Reason=CMDRdirect  Calling[00000000] Type=Default Plan=Default 
+            Display [Records Msgs=0]
+            Timed: 07/05/15 09:51
+3719504296mS DTM: 07/05/2015 09:51:49 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719508740mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Records: DSS Appearance Key Pressed 3
+3719509296mS DTM: 07/05/2015 09:51:54 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719511765mS CMExtnEvt:    v=(null) State, new=Idle  old=Idle,0,0,Records: DSS Appearance Key Pressed 6
+3719511766mS CMCallEvt:    0.54188.0 -1 BaseEP: NEW CMEndpoint f5180598 TOTAL NOW=3 CALL_LIST=1
+3719511766mS CMCallEvt:    0.54188.0 -1 Records.-1: NEW CMExtnEndpoint f5180598, Name=Records, Extn=227, Phys Extn=227
+3719511766mS CMCallEvt:    CREATE CALL:8925 (f5208a30)
+3719511766mS CMCallEvt:    0.54189.0 -1 BaseEP: NEW CMEndpoint f519b768 TOTAL NOW=4 CALL_LIST=1
+3719511768mS CMExtnEvt:    Records: CMExtnHandler::SetCurrent( id: 0->54188 )
+3719511768mS CMExtnRx: v=227, p1=0
+            CMSetup
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[705] Type=Identifier (121) Reason=CMDRdirect  Calling[227] Type=Internal Plan=Default 
+            BC: CMTC=Speech CMTM=Circuit CMTR=64 CMST=Default CMU1=ULaw
+            IE CMIECallingPartyName (110)(Type=CMNameDefault) name=Records
+3719511768mS CMCallEvt:    0.54188.0 8925 Records.0: StateChange: END=A CMCSIdle->CMCSDialInitiated
+3719511768mS CMExtnEvt:    v=1 State, new=Dialling  old=Idle,0,0,Records
+3719511769mS CMTARGET:     0.54188.0 8925 Records.0: Setting Hard Timer 4000
+3719511769mS CMTARGET:     0.54188.0 8925 Records.0: LOOKUP CALL ROUTE: type=121 called_party=705 sub= calling=227 dir=out complete=0 ses=0
+3719511769mS CMTARGET:     0.54188.0 8925 Records.0: ADD TARGET (N): number=705 type=121 depth=1 nobar=1 setorig=1 ses=0
+3719511770mS CMCallEvt:    0.54190.0 -1 BaseEP: NEW CMEndpoint f519d120 TOTAL NOW=5 CALL_LIST=2
+3719511770mS CMCallEvt:    0.54190.0 -1 Alog Trunk:5: StateChange: END=X CMCSIdle->CMCSSeized
+3719511771mS CMTARGET:     0.54188.0 8925 Records.0: CancelTimer CMTCDelayedProcessing
+3719511771mS CMTARGET:     0.54188.0 8925 Records.0: INITIAL TARGETING SUCCEEDED
+3719511771mS CMTARGET:     0.54188.0 8925 Records.0: GetNoAnswerTimer:15
+3719511771mS CMCallEvt:    0.54188.0 8925 Records.0: StateChange: END=A CMCSDialInitiated->CMCSDialling
+3719511772mS CMExtnTx: v=227, p1=0
+            CMSetupAck
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            BChan: slot=2 chan=1
+            Timed: 07/05/15 09:51
+3719511772mS CMCallEvt:    0.54189.0 8925 TargetingEP: StateChange: END=B CMCSIdle->CMCSOffering
+3719511773mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=T CMCSSeized->CMCSOffering
+3719511774mS CD: CALL: 0.54188.0 BState=Idle Cut=0 Music=0.0 Aend="Records(227)" (2.1) Bend="Line 5" [Line 5] (0.0) CalledNum= () CallingNum=227 (Records) Internal=0 Time=8 AState=Dialling
+3719511775mS CD2: CALL:S 0.54188.0,0.54189.0,7,0,0,0,0,0,Records(227),,Line 5,2.1,0.0,100.100,,100.101,227,,,100,,100,,0,16,0,0,0.0,,,,,,,0,8,0,0,0,0,enu,,0,,0,0,0,0,,8925,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719511779mS CD: CALLSYNC: cs02
+3719511829mS CMCallEvt:    0.54189.0 8925 TargetingEP: RequestEnd 0.54190.0 8925 Alog Trunk:5
+3719511830mS CMTARGET:     0.54188.0 8925 Records.0: CancelTimer CMTCNoAnswerTimeout
+3719511830mS CMCallEvt:    0.54189.0 -1 BaseEP: DELETE CMEndpoint f519b768 TOTAL NOW=4 CALL_LIST=2
+3719511830mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=B CMCSOffering->CMCSOverlapRecv
+3719511831mS CD: CALL: 0.54188.0 BState=Idle Cut=0 Music=0.0 Aend="Records(227)" (2.1) Bend="Line 5" [Line 5] (3.1) CalledNum= () CallingNum=227 (Records) Internal=0 Time=64 AState=Dialling
+3719511831mS CD2: CALL:S 0.54188.0,0.54189.0,7,0,0,0,0,0,Records(227),Line 5,,2.1,3.1,100.100,,100.101,227,,,100,,100,,0,16,0,0,0.0,,,,,,,0,65,0,0,0,0,enu,,0,,0,0,0,0,,8925,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3719511832mS CMMap: PCG::MapBChan pcp[99]b1r0 cp_b f52adb8c other_cp_b 0 type CGTypeSimple
+3719511832mS CMMap: PCG::MapBChan pcp[82]b1r0 cp_b f597e624 other_cp_b f52adb8c type CGTypeSimple
+3719511832mS CMMap: a=2.1 b=3.1 M12
+3719512331mS CMMap: PCG::UnmapBChan pcp[99]b1r0 cp_b f52adb8c other_cp_b f597e624
+3719512332mS CMMap: a=3.1 b=2.1 M02
+3719512332mS CMMap: PCG::MapBChan pcp[99]b1r0 cp_b f52adb8c other_cp_b f597e624 type CGTypeSimple
+3719512332mS CMMap: a=3.1 b=2.1 M22
+3719513419mS PRN: 227: Digit Pressed 1
+3719513419mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[1] Type=Default (100) Reason=CMDRdirect  
+3719513421mS CMMap: PCG::UnmapBChan pcp[82]b1r0 cp_b f597e624 other_cp_b f52adb8c
+3719513421mS CMMap: a=2.1 b=3.1 M02
+3719513421mS CMMap: PCG::UnmapBChan pcp[99]b1r0 cp_b f52adb8c other_cp_b 0
+3719513743mS PRN: 227: Digit Pressed 8
+3719513743mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[8] Type=Default (100) Reason=CMDRdirect  
+3719513931mS PRN: 227: Digit Pressed 0
+3719513931mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[0] Type=Default (100) Reason=CMDRdirect  
+3719514168mS PRN: 227: Digit Pressed 2
+3719514168mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[2] Type=Default (100) Reason=CMDRdirect  
+3719514296mS DTM: 07/05/2015 09:51:58 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719514531mS PRN: 227: Digit Pressed 8
+3719514531mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[8] Type=Default (100) Reason=CMDRdirect  
+3719514756mS PRN: 227: Digit Pressed 6
+3719514756mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[6] Type=Default (100) Reason=CMDRdirect  
+3719515043mS PRN: 227: Digit Pressed 0
+3719515043mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[0] Type=Default (100) Reason=CMDRdirect  
+3719516881mS PRN: 227: Digit Pressed 2
+3719516881mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[2] Type=Default (100) Reason=CMDRdirect  
+3719517068mS PRN: 227: Digit Pressed 2
+3719517068mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[2] Type=Default (100) Reason=CMDRdirect  
+3719517381mS PRN: 227: Digit Pressed 8
+3719517381mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[8] Type=Default (100) Reason=CMDRdirect  
+3719517706mS PRN: 227: Digit Pressed 7
+3719517706mS CMExtnRx: v=227, p1=0
+            CMInformation
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            Called[7] Type=Default (100) Reason=CMDRdirect  
+3719519296mS DTM: 07/05/2015 09:52:04 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
+3719519707mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=B CMCSOverlapRecv->CMCSAccept
+3719519708mS CMCallEvt:    0.54188.0 8925 Records.0: StateChange: END=A CMCSDialling->CMCSRingBack
+3719519708mS CMExtnEvt:    v=1 State, new=Alerting  old=Dialling,0,0,Records
+3719519709mS CMExtnTx: v=227, p1=0
+            CMProgress
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            IE CMIEProgressIndicator (30) cs=CMCSITUT (0), loc=CMLUser (0), pd=CMPDNotISDN (1)
+            IE CMIERespondingPartyNumber (230)(P:100 S:100 T:0 N:100 R:4) number=18028602287
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=5 channel=0 rx_gain=32 tx_gain=32 ep_callid=54190 ipaddr=192.168.0.99 apps=0
+            Timed: 07/05/15 09:52
+3719519709mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=B CMCSAccept->CMCSRinging
+3719519709mS CMExtnTx: v=227, p1=0
+            CMProgress
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            IE CMIERespondingPartyNumber (230)(P:100 S:100 T:0 N:100 R:4) number=18028602287
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=5 channel=0 rx_gain=32 tx_gain=32 ep_callid=54190 ipaddr=192.168.0.99 apps=0
+            IE CMIEProgressIndicator (30) cs=CMCSITUT (0), loc=CMLUser (0), pd=CMPDInbandPattern (8)
+            Timed: 07/05/15 09:52
+3719519710mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=B CMCSRinging->CMCSConnReq
+3719519710mS CMCallEvt:    0.54188.0 8925 Records.0: StateChange: END=A CMCSRingBack->CMCSOGConnReq
+3719519710mS CMExtnEvt:    v=1 State, new=Connected  old=Alerting,0,0,Records
+3719519711mS CMExtnTx: v=227, p1=0
+            CMConnect
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+            IE CMIERespondingPartyNumber (230)(P:100 S:100 T:0 N:100 R:4) number=18028602287
+            IE CMIEDeviceDetail (231) LOCALE=enu HW=15 VER=8 class=CMDeviceAlogTrunk type=0 number=5 channel=0 rx_gain=32 tx_gain=32 ep_callid=54190 ipaddr=192.168.0.99 apps=0
+            Timed: 07/05/15 09:52
+3719519711mS CMExtnRx: v=227, p1=0
+            CMConnectAck
+            Line: type=DigitalExtn 3 Call: lid=0 id=54188 in=0
+3719519711mS CMCallEvt:    0.54188.0 8925 Records.0: StateChange: END=A CMCSOGConnReq->CMCSConnected
+3719519711mS CMTARGET:     0.54188.0 8925 Records.0: ~CMTargetHandler f51c57ec ep f5180598
+3719519712mS CMCallEvt:    0.54190.0 8925 Alog Trunk:5: StateChange: END=B CMCSConnReq->CMCSConnected
+3719519714mS CMMap: PCG::MapBChan pcp[99]b1r0 cp_b f52adb8c other_cp_b 0 type CGTypeSimple
+3719519714mS CMMap: PCG::MapBChan pcp[82]b1r0 cp_b f597e624 other_cp_b f52adb8c type CGTypeSimple
+3719519714mS CMMap: a=2.1 b=3.1 M12
+
+********** SysMonitor v10.1 (67) [connected to 192.168.0.99 (VSAH)] **********
+3719519830mS PRN: Monitor Status  IP 500 V2 8.1(65)
+3719519830mS PRN: LAW=U PRI=0, BRI=0, ALOG=8, VCOMP=20, MDM=0, WAN=0, MODU=0 LANM=0 CkSRC=0 VMAIL=1(VER=2 TYP=3) 1-X=0 CALLS=2(TOT=8925)
+3719521707mS CD: CALL: 0.54188.0 BState=Connected Cut=3 Music=0.0 Aend="Records(227)" (2.1) Bend="Line 5" [Line 5] (3.1) CalledNum=18028602287 () CallingNum=227 (Records) Internal=0 Time=9941 AState=Connected
+3719521707mS CD2: CALL:S 0.54188.0,0.54189.0,2,2,1,0,1,0,Records(227),Line 5,,2.1,3.1,100.100,18028602287,100.101,227,,,100,18028602287,100,,0,16,0,0,0.0,,,,,,,0,9941,1995,0,0,0,enu,,0,,0,0,0,0,,8925,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+********** Warning: Logging to Screen Stopped **********
+3719524296mS DTM: 07/05/2015 09:52:09 (Thu 07 May 2015) [192.168.0.99 (VSAH)]
